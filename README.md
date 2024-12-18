@@ -6,6 +6,8 @@ Barchasi juda oddiy shunchaki qiyamatni kiritib, valyutani tanlaysiz.
 Kodni yurgazish uchun: 
 git clone https://github.com/Megacoderuzb/currency_exchange.git
 
+Site : https://currencyexchangers.netlify.app/
+
 npm install
 
 npm run dev

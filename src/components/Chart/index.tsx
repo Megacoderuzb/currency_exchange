@@ -1,5 +1,11 @@
 import { Doughnut } from "react-chartjs-2";
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
+import {
+  Chart as ChartJS,
+  ArcElement,
+  Tooltip,
+  Legend,
+  ChartOptions,
+} from "chart.js";
 import { Transaction } from "../../context/AppContext";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
@@ -55,7 +61,7 @@ function Chart({ transactions }: ChartProps) {
     ],
   };
 
-  const options = {
+  const options: ChartOptions<"doughnut"> = {
     animation: {
       duration: 1500,
       easing: "easeInOutBounce",

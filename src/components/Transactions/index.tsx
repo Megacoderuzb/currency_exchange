@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Transaction } from "../../context/AppContext";
 import { v4 as uuidv4 } from "uuid";
 import axios from "axios";
